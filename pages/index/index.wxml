@@ -1,0 +1,27 @@
+<view class="content">
+    <!--  显示当天的天气信息  -->
+    <view class="infos">
+      <view class="city">{{city}} {{today}}</view>
+
+      <view class="temp"> {{weather.wendu}} </view>
+
+      <view class="weather"> {{weather.ganmao}} </view>
+
+    </view>
+
+    <view class="yesterday">
+      <view class="detail">
+        <text class="yesterday-tit">yesterday</text>
+        <text>{{weather.yesterday.date}}</text>
+      </view>
+
+      <view class="detail">
+        {{weather.yesterday.type}}
+        {{weather.yesterday.fx}}
+        {{weather.yesterday.fl}}
+        {{weather.yesterday.low}}
+        {{weather.yesterday.high}}
+      </view>
+    </view>
+
+</view>
