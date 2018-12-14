@@ -24,4 +24,8 @@
       </view>
     </view>
 
+    <view class="forecast">
+      <view class=""></view>
+    </view>
+
 </view>
